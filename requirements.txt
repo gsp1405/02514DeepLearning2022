@@ -1,0 +1,12 @@
+# local package
+#-e git+ssh://git@github.com/RasmusJuul/Vision-transformers-for-generative-modeling.git@3d59145d69d4bda144db9b914794fe9a4de001ca#egg=src
+-e .
+
+matplotlib
+numpy
+pandas
+pytorch_lightning
+setuptools
+torch==1.11.0+cu113
+torchvision==0.12.0+cu113
+torchsummary
